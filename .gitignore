@@ -205,3 +205,21 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+
+# Virtual env
+.venv
+
+# Node / frontend
+node_modules/
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/package-lock.json
+dist/
+.DS_Store
+*.local
+
+# Editor
+.vscode/
+.idea/
